@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 193640134}
-  m_IndirectSpecularColor: {r: 0.10111766, g: 0.28813845, b: 0.5372517, a: 1}
+  m_IndirectSpecularColor: {r: 0.1014239, g: 0.28848746, b: 0.53792876, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -343,8 +343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &28187992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,20 +355,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &28187993
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -604,7 +588,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1 &87409452
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,8 +952,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &111305944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -983,20 +964,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &111305945
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1448,8 +1415,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &159622035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1462,20 +1427,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &159622036
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1764,7 +1715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!114 &177379434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1777,8 +1727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reticleTransform: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!1 &193640133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,8 +2579,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &313074375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2645,20 +2591,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &313074376
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3359,8 +3291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &352216289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3373,20 +3303,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &352216290
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3685,7 +3601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1001 &412938748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4080,7 +3995,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!114 &484017567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4093,8 +4007,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reticleTransform: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!1001 &498602660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4656,7 +4568,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1001 &550798699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5006,7 +4917,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1001 &625806045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5380,7 +5290,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.005
+    widthMultiplier: 0.02
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -6323,8 +6233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &753735708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6337,20 +6245,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &753735709
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6651,7 +6545,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1 &797290360
 GameObject:
   m_ObjectHideFlags: 0
@@ -7762,8 +7655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &964460325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7776,20 +7667,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &964460326
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8547,8 +8424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1047313462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8561,20 +8436,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1047313463
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9509,8 +9370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1152786556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9523,20 +9382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1152786557
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9725,7 +9570,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!4 &1190539190 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 446996, guid: ae0c21b643679c045b98cb678e8abef5, type: 3}
@@ -10886,7 +10730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!114 &1336945482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10899,8 +10742,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reticleTransform: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!1 &1338788923
 GameObject:
   m_ObjectHideFlags: 0
@@ -11226,7 +11067,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!114 &1359517652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11239,8 +11079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reticleTransform: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!1 &1364324113
 GameObject:
   m_ObjectHideFlags: 0
@@ -11632,8 +11470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1415807840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11646,20 +11482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1415807841
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12010,7 +11832,19 @@ MonoBehaviour:
       m_Calls: []
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1448608423}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -12433,7 +12267,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1001 &1483341736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12571,7 +12404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1 &1491069421
 GameObject:
   m_ObjectHideFlags: 0
@@ -12625,7 +12457,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1001 &1493208298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12755,7 +12586,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!4 &1514967598
 Transform:
   m_ObjectHideFlags: 0
@@ -12952,8 +12782,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1526245127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12966,20 +12794,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1526245128
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13552,7 +13366,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.005
+    widthMultiplier: 0.02
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -13915,6 +13729,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 6452128, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
 --- !u!4 &1579967254 stripped
@@ -14230,8 +14048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1645799101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14244,20 +14060,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1645799102
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14370,8 +14172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1662838659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14384,20 +14184,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1662838660
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14940,7 +14726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1001 &1701345485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15107,8 +14892,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1723585048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15121,20 +14904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1723585049
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15761,8 +15530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1792350378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15775,20 +15542,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1792350379
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16107,8 +15860,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1829891264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16121,20 +15872,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1829891265
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16960,8 +16697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1956754391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16974,20 +16709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1956754392
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17851,7 +17572,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1001 &2063180362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18201,8 +17921,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &2084471655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18215,20 +17933,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &2084471656
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18341,8 +18045,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &2084804449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18355,20 +18057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &2084804450
 Rigidbody:
   m_ObjectHideFlags: 0
